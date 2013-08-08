@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="ResponsiveAdsenseBreakpoints.css">
+		<script src="ResponsiveAdsense.js"></script>
+		<script>
+
+			// Register the event handlers in the way you prefer
+			window.addEventListener("DOMContentLoaded", function(){
+			
+				// Add the banners in the way you prefer
+					ResponsiveAdsense.addBanners(document.querySelectorAll(".banner"));
+
+				// Register the resize event handler in the way you prefer
+					window.addEventListener("resize", ResponsiveAdsense.resizeHandler, false);
+					// or $(window).resize(ResponsiveAdsense.resizeHandler);
+
+			}, false);
+
+		</script>
+		<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	</head>
+	<body>
+		<div class="squareBanner banner">
+			<!-- change data-ad-client and data-ad-slot values -->
+			<ins class="adsbygoogle" style="display:inline-block" data-ad-client="" data-ad-slot=""></ins>
+			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+		</div>
+		
+		<div class="horizontalBanner banner">
+			<!-- change data-ad-client and data-ad-slot values -->
+			<ins class="adsbygoogle" style="display:inline-block" data-ad-client="" data-ad-slot=""></ins>
+			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+		</div>
+		
+		<div class="verticalBanner banner">
+			<!-- change data-ad-client and data-ad-slot values -->
+			<ins class="adsbygoogle" style="display:inline-block" data-ad-client="" data-ad-slot=""></ins>
+			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+		</div>
+	</body>
+</html>
