@@ -26,7 +26,7 @@ this is what will happen:</p>
 <p>Loaded a page in Landscape:</p>
 <p align="center"><img src="http://i.imgur.com/LzuEYZM.png"></p>
 
-<p>Switched to Portrait will cause the banner to not fit the viewport:</p>
+<p>Switched to Portrait will cause the banner to not fit in the viewport:</p>
 <p align="center"><img src="http://i.imgur.com/Ip8tkev.png"></p>
 
 <p>In fact, Adsense doesn't update the banner at all after the page load, it will leave it as is,
