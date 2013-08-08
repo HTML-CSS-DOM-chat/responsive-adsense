@@ -51,3 +51,7 @@ zooming the banner by code. If it is allowed to the users to zoom a page that co
 why shouldn't it be allowed for us zooming a banner only?</p>
 <p>Also, a cut in half banner is useless: mr. Google, which is better, a 1:1 sized banner cut in half
 or a banner that is totally visible but 20% smaller?</p>
+
+<h1>The Demo</h1>
+<p>Browse the repository, download all the files, edit index.htm using your adsense parameters,
+upload the three files on your server and run it in your browser.</p>
