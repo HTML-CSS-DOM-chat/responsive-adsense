@@ -1,0 +1,33 @@
+html,body{padding:0;margin:0;}
+
+/* outline added to show the banner's client area */
+.banner  						{outline:2px red solid;display:block;margin:50px auto;overflow:hidden;}
+
+/* basic styling of adsense (required) */
+.adsbygoogle					{width:inherit;height:inherit;}
+
+/*
+	Banner Stacks:
+	In the same stack always use banners that have similar form factor:
+	don't switch from a vertical banner to a horizontal one or vice-versa,
+	because it will result distorted when the CSS transform is applied
+	These are just a demo... if you intend to implement this,
+	better to improve the stack's aspect ratios
+*/
+								.squareBanner		{	width:125px;height:125px;	}	/* AR:  1.0 */
+@media(min-width: 180px){		.squareBanner		{	width:180px;height:150px;	}}	/* AR:  1.2 */
+@media(min-width: 200px){		.squareBanner		{	width:200px;height:200px;	}}	/* AR:  1.0 */
+@media(min-width: 250px){		.squareBanner		{	width:250px;height:250px;	}}	/* AR:  1.0 */
+@media(min-width: 300px){		.squareBanner		{	width:300px;height:250px;	}}	/* AR:  1.2 */
+@media(min-width: 336px){		.squareBanner		{	width:336px;height:280px;	}}	/* AR:  1.2 */
+
+								.horizontalBanner	{	width:234px;height:60px;	}	/* AR:  3.9 */
+@media(min-width: 320px){		.horizontalBanner	{	width:320px;height:50px;	}}	/* AR:  6.4 */
+@media(min-width: 468px){		.horizontalBanner	{	width:468px;height:60px;	}}	/* AR:  7.8 */
+@media(min-width: 728px){		.horizontalBanner	{	width:728px;height:90px;	}}	/* AR:  8.0 */
+@media(min-width: 970px){		.horizontalBanner	{	width:970px;height:90px;	}}	/* AR: 10.7 */
+
+								.verticalBanner		{	width:120px;height:240px;	}}	/* AR:  0.5 */
+@media(min-width: 130px){		.verticalBanner		{	width:120px;height:600px;	}}	/* AR:  0.2 */
+@media(min-width: 160px){		.verticalBanner		{	width:160px;height:600px;	}}	/* AR:  0.2 */
+@media(min-width: 300px){		.verticalBanner		{	width:300px;height:600px;	}}	/* AR:  0.5 */
