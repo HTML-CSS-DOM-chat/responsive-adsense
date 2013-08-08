@@ -24,10 +24,10 @@ and Adsense served you a banner 468x60 accordingly to your media queries, and th
 this is what will happen:</p>
 
 <p>Loaded a page in Landscape:</p>
-![Adsense Landscape](http://i.imgur.com/LzuEYZM.png)
+<p align="center"><img src="http://i.imgur.com/LzuEYZM.png"></p>
 
 <p>Switched to Portrait will cause the banner to not fit the viewport:</p>
-![Adsense Portrait](http://i.imgur.com/Ip8tkev.png)
+<p align="center"><img src="http://i.imgur.com/Ip8tkev.png"></p>
 
 <p>In fact, Adsense doesn't update the banner at all after the page load, it will leave it as is,
 even if it <b>becomes totally useless</b>.</p>
@@ -38,7 +38,7 @@ what if I use CSS <code>transform: scale(x,y)</code> to zoom in/out the banner?
 In most of cases, every banner that is visible in 16:9 will be readable in 9:16 as well
 especially because of high pixel density screens that are very popular these days.</p>
 
-![Adsense Portrait](http://i.imgur.com/8dKEaQY.png)
+<p align="center"><img src="http://i.imgur.com/8dKEaQY.png"></p>
 
 <h1>Warning</h1>
 <p><b>This code is probably against Google Adsense's usage policies, so I wouldn't recommend you to use it.</b>
