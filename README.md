@@ -15,10 +15,12 @@ for us developers, but nothing actually changes to banners' behavior.
 
 <h1>The problem</h1>
 What the new Adsense script does is to serve a banner that fits the container element's size
-on page load and on page load only. Means, for example, that if you loaded a responsive page in `landscape` view,
+<b>on page load and on page load only</b>. Means, for example, that if you loaded a responsive page in `landscape` view,
 and adsense served you a banner 468x60 accordingly to your media queries, and then you switch to `portrait`
 this is what will happen:
 
+Loaded a page in Landscape:
 ![Adsense Landscape](http://i.imgur.com/LzuEYZM.png)
 
+Switched to Portrait will cause the banner to not fit the viewport:
 ![Adsense Portrait](http://i.imgur.com/Ip8tkev.png)
