@@ -54,4 +54,4 @@ or a banner that is totally visible but 20% smaller?</p>
 
 <h1>The Demo</h1>
 <p>Browse the repository, download all the files, edit <code>demo.htm</code> using your adsense parameters,
-upload the three files on your server and launch the page in your browser.</p>
+upload the three files on your server and launch the page in your mobile phone.</p>
