@@ -6,7 +6,7 @@ Makes Google Adsense banners actually Responsive
 ==================
 
 <p>In July 2013 Adsense has done finally a first step forward in RWD.
-Sadly, however,<b>the new solution proposed by Google doesn't actually solve anything</b>,
+Sadly, however, <b>the new solution proposed by Google doesn't actually solve anything</b>,
 it's just <b>a different method to do what we are already allowed to do
 with the old Adsense code</b>.</p>
 
