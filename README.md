@@ -18,8 +18,9 @@ for us developers, but nothing actually changes to banners' behavior.</p>
 <h1>The problem</h1>
 
 <p>What the new Adsense script does is to serve a banner that fits the container element's size
-<b>on page load and on page load only</b>. Means, for example, that if you loaded a responsive page in `landscape` view,
-and adsense served you a banner 468x60 accordingly to your media queries, and then you switch to `portrait`
+<b>on page load and on page load only</b>.
+Means, for example, that if you loaded a responsive page in `landscape` view,
+and Adsense served you a banner 468x60 accordingly to your media queries, and then you switch to `portrait`
 this is what will happen:</p>
 
 <p>Loaded a page in Landscape:</p>
@@ -27,3 +28,17 @@ this is what will happen:</p>
 
 <p>Switched to Portrait will cause the banner to not fit the viewport:</p>
 ![Adsense Portrait](http://i.imgur.com/Ip8tkev.png)
+
+<p>In fact, Adsense doesn't update the banner at all after the page load, it will leave it as is,
+even if it <b>becomes totally useless</b>.</p>
+
+<h1>The solution</h1>
+<p>Today I've tried for the first time the new Adsense plugin and I got an idea:
+what if I use CSS <code>transform: scale(x,y)</code> to zoom in/out the banner?
+In most of cases, every banner that is visible in 16:9 will be readable in 9:16 as well
+especially because of high pixel density screens that are very popular these days.</p>
+
+<h1>Warning</h1>
+<p><b>This code is probably against Google Adsense's usage policies, so I wouldn't recommend you to use it.</b>
+But I'm investigating to be certain and I will fight to let Google allow this kind of modifications.</p>
+<p>Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out their phones and 
