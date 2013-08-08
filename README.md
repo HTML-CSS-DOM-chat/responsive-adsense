@@ -1,7 +1,9 @@
 responsive-adsense
 ==================
 
-Makes Google Adsense banners actually Responsive
+An attempt to make Google Adsense banners actually Responsive [!]
+
+<img src="http://i.imgur.com/kj1k3fK.gif">
 
 ==================
 
