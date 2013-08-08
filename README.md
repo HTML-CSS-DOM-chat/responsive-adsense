@@ -42,5 +42,12 @@ especially because of high pixel density screens that are very popular these day
 
 <h1>Warning</h1>
 <p><b>This code is probably against Google Adsense's usage policies, so I wouldn't recommend you to use it.</b>
-But I'm investigating to be certain and I will fight to let Google allow this kind of modifications.</p>
-<p>Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out their phones and 
+But I'm investigating to be certain and I will fight to let Google allow this kind of modifications, until
+of course Google will provide a real RWD solution for this.</p>
+
+<h1>Why should it be allowed?</h1>
+<p>Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out the page and
+zooming the banner by code. If it is allowed to the users to zoom a page that contains banners,
+why shouldn't it be allowed for us zooming a banner only?</p>
+<p>Also, a cut in half banner is useless: mr. Google, which is better, a 1:1 sized banner cut in half
+or a banner that is totally visible but 20% smaller?</p>
