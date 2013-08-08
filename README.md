@@ -38,6 +38,8 @@ what if I use CSS <code>transform: scale(x,y)</code> to zoom in/out the banner?
 In most of cases, every banner that is visible in 16:9 will be readable in 9:16 as well
 especially because of high pixel density screens that are very popular these days.</p>
 
+![Adsense Portrait](http://i.imgur.com/8dKEaQY.png)
+
 <h1>Warning</h1>
 <p><b>This code is probably against Google Adsense's usage policies, so I wouldn't recommend you to use it.</b>
 But I'm investigating to be certain and I will fight to let Google allow this kind of modifications.</p>
