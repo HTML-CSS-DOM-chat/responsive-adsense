@@ -33,7 +33,7 @@ this is what will happen:</p>
 even if it <b>becomes totally useless</b>.</p>
 
 <h1>The solution</h1>
-<p>Today I've tried for the first time the new Adsense plugin and I got an idea:
+<p>Today I've tried for the first time the new Adsense plugin and I had an idea:
 what if I use CSS <code>transform: scale(x,y)</code> to zoom in/out the banner?
 In most of cases, every banner that is visible in 16:9 will be readable in 9:16 as well
 especially because of high pixel density screens that are very popular these days.</p>
