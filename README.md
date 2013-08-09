@@ -41,8 +41,8 @@ After using and failing with the new Adsense code, I had an idea:
 
 **Can we use CSS `transform: scale(x,y)` to zoom / scale the advert?**
 
-In most of cases, every banner that is visible in 16:9 will be readable in 9:16, especially due to the ammount of
-high pixel density devices on the market.
+In most of cases, every banner that is visible in 16:9 will be readable in 9:16, especially because it will
+be displayed on high pixel density devices, which are very common these days.
 
 <p align="center"><img src="http://i.imgur.com/8dKEaQY.png"></p>
 
