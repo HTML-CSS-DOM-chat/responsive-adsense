@@ -9,7 +9,7 @@ An attempt to make Google Adsense adverts truly responsive.
 
 In July 2013, Google released an updated version of Adsense, to support responsive adverts.
 
-However **the new solution proposed by Google doesn't actually solve the problem**,
+However **the new solution proposed by Google doesn't actually solve any problem**,
 it just provides **a different method** to do what you are already allowed to do
 with the old version of Adsense.
 
@@ -33,7 +33,7 @@ Rotate device to *portrait* view and the banner will not fit in the viewport:
 <p align="center"><img src="http://i.imgur.com/Ip8tkev.png"></p>
 
 The fact Adsense doesn't update the banner at all after the initial page load,
-means the new solution **is totally useless** since there's no difference at all with the old method.
+means the new solution **is useless** since there's no difference at all with the old method.
 
 ##Solution
 
@@ -47,8 +47,8 @@ high pixel density devices on the market.
 <p align="center"><img src="http://i.imgur.com/8dKEaQY.png"></p>
 
 ##Warning
-Its unknown whether this plugin complies with Google Adsense's usage policies, but this is currently being investigated. I would recommended this solution until
-Google provides a more fitting solution.
+Its unknown whether this plugin complies with Google Adsense's usage policies, but this is currently being investigated.
+So I can't recommended this solution until Google approves it's fine.
 
 ##Why should it be allowed?
 Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out the page
@@ -58,4 +58,4 @@ Also, a cut in half banner is useless: mr. Google, which is better, a 1:1 sized 
 cut in half or a banner that is totally visible but 20% smaller?
 
 ##Installation
-<p>Download the files and edit <code>demo.htm</code> using your Google Adsense parameters.</p>
+Download the files and edit <code>demo.htm</code> using your Google Adsense parameters.
