@@ -22,7 +22,7 @@ Now we're allowed to do this with CSS, which is more confortable, but nothing ac
 
 The new Adsense serves aan advert that fits the container element's size **on page load and on page load only**.
 
-If you loaded a page in *landscape* view, Adsense will serve a banner 468x60 accordingly to your media queries, but the following issue arises:</p>
+If you loaded a page in *landscape* view, Adsense will serve an advert `468px x 60px` accordingly to your media queries, but the following issue arises:</p>
 
 Loaded a page in *landscape* view:
 <p align="center"><img src="http://i.imgur.com/LzuEYZM.png"></p>
