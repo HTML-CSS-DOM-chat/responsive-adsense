@@ -1,59 +1,51 @@
 responsive-adsense
 ==================
 
-An attempt to make Google Adsense banners actually Responsive [!]
+An attempt to make Google Adsense adverts truly responsive.
 
 <img src="http://i.imgur.com/kj1k3fK.gif">
 
 ==================
 
-<p>In July 2013 Adsense has done finally a first step forward in RWD.
-Sadly, however, <b>the new solution proposed by Google doesn't actually solve anything</b>,
-it's just <b>a different method to do what we are already allowed to do
-with the old Adsense code</b>.</p>
+In July 2013, Google released an updated version of Adsense, to support responsive adverts.
 
-<p>With the old Adsense code we used to define breakpoints with JavaScript, switching ad-slots
-accordingly to the <code>offsetWidth</code> property (for example).
-Now we're allowed to do this with CSS, it's more confortable
-for us developers, but nothing actually changes to banners' behavior.</p>
+However **the new solution proposed by Google doesn't actually solve the problem**,
+it just provides **a different method** to do what you are already allowed to do
+with the old version of Adsense.
 
-<h1>The problem</h1>
+With the old version of Adsense you could define breakpoints with JavaScript and switch adverts
+according to the <code>offsetWidth</code> property.
 
-<p>What the new Adsense script does is to serve a banner that fits the container element's size
-<b>on page load and on page load only</b>.
-Means, for example, that if you loaded a responsive page in `landscape` view,
-and Adsense served you a banner 468x60 accordingly to your media queries, and then you switch to `portrait`
-this is what will happen:</p>
+Now we're allowed to do this with CSS, which is more confortable, but nothing actually changes to banners' behavior.
 
-<p>Loaded a page in Landscape:</p>
+##Problem
+
+The new Adsense serves aan advert that fits the container element's size **on page load and on page load only**.
+
+If you loaded a page in *landscape* view, Adsense will serve a banner 468x60 accordingly to your media queries, but the following issue arises:</p>
+
+Loaded a page in *landscape* view:
 <p align="center"><img src="http://i.imgur.com/LzuEYZM.png"></p>
 
-<p>Switched to Portrait will cause the banner to not fit in the viewport:</p>
+Rotate device to *portrait* view and the banner will not fit in the viewport:
 <p align="center"><img src="http://i.imgur.com/Ip8tkev.png"></p>
 
-<p>In fact, Adsense doesn't update the banner at all after the page load, it will leave it as is,
-even if it <b>becomes totally useless</b>.</p>
+The fact Adsense doesn't update the banner at all after the initial page load, means the new solution **becomes totally useless**.
 
-<h1>The solution</h1>
-<p>Today I've tried for the first time the new Adsense plugin and I had an idea:
-what if I use CSS <code>transform: scale(x,y)</code> to zoom in/out the banner?
-In most of cases, every banner that is visible in 16:9 will be readable in 9:16 as well
-especially because of high pixel density screens that are very popular these days.</p>
+##Solution
+
+After using and failing with the new Adsense code, I had an idea:
+
+**Can we use CSS `transform: scale(x,y)` to zoom / scale the advert?**
+
+In most of cases, every banner that is visible in 16:9 will be readable in 9:16, especially due to the ammount of
+high pixel density devices on the market.
 
 <p align="center"><img src="http://i.imgur.com/8dKEaQY.png"></p>
 
-<h1>Warning</h1>
-<p><b>This code is probably against Google Adsense's usage policies, so I wouldn't recommend you to use it.</b>
-But I'm investigating to be certain and I will fight to let Google allow this kind of modifications, until
-of course Google will provide a real RWD solution for this.</p>
+##Warning
+Its unknown whether this plugin complies with Google Adsense's usage policies, but this is currently being investigated. I would recommended this solution until
+Google provides a more fitting solution.
 
-<h1>Why should it be allowed?</h1>
-<p>Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out the page and
-zooming the banner by code. If it is allowed to the users to zoom a page that contains banners,
-why shouldn't it be allowed for us zooming a banner only?</p>
-<p>Also, a cut in half banner is useless: mr. Google, which is better, a 1:1 sized banner cut in half
-or a banner that is totally visible but 20% smaller?</p>
-
-<h1>The Demo</h1>
-<p>Browse the repository, download all the files, edit <code>demo.htm</code> using your adsense parameters,
-upload the three files on your server and launch the page in your mobile phone.</p>
+##Installation
+<p>Download the files and edit <code>demo.htm</code> using your Google Adsense parameters.</p>
