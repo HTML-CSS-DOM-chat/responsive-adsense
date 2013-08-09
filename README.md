@@ -20,9 +20,11 @@ Now we're allowed to do this with CSS, which is more confortable, but nothing ac
 
 ##Problem
 
-The new Adsense serves aan advert that fits the container element's size **on page load and on page load only**.
+The new Adsense serves an advert as specified with CSS
+**on page load and on page load only (exactly like the old AdSense)**.
 
-If you loaded a page in *landscape* view, Adsense will serve an advert `468px x 60px` accordingly to your media queries, but the following issue arises:</p>
+If you loaded a page in *landscape* view, Adsense will serve, for example,
+an advert `468px x 60px` accordingly to your media queries, but the following issue arises:</p>
 
 Loaded a page in *landscape* view:
 <p align="center"><img src="http://i.imgur.com/LzuEYZM.png"></p>
@@ -30,7 +32,8 @@ Loaded a page in *landscape* view:
 Rotate device to *portrait* view and the banner will not fit in the viewport:
 <p align="center"><img src="http://i.imgur.com/Ip8tkev.png"></p>
 
-The fact Adsense doesn't update the banner at all after the initial page load, means the new solution **becomes totally useless**.
+The fact Adsense doesn't update the banner at all after the initial page load,
+means the new solution **is totally useless** since there's no difference at all with the old method.
 
 ##Solution
 
