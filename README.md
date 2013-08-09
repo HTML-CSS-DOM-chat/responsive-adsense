@@ -50,5 +50,12 @@ high pixel density devices on the market.
 Its unknown whether this plugin complies with Google Adsense's usage policies, but this is currently being investigated. I would recommended this solution until
 Google provides a more fitting solution.
 
+##Why should it be allowed?
+Firstly, I don't see any difference between the fact that users can zoom-in/zoom-out the page
+and zooming the banner by code. If it is allowed to the users to zoom a page that contains banners,
+why shouldn't be allowed for us zooming a banner only?
+Also, a cut in half banner is useless: mr. Google, which is better, a 1:1 sized banner
+cut in half or a banner that is totally visible but 20% smaller?
+
 ##Installation
 <p>Download the files and edit <code>demo.htm</code> using your Google Adsense parameters.</p>
