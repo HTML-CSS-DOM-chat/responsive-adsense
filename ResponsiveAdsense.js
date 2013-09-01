@@ -1,4 +1,4 @@
-var ResponsiveAdsense = (function(){
+var ResponsiveAdsense = new (function(){
   var THIS = this;
 	THIS._banners = [];
 	THIS._t = ['WebkitTransform','MozTransform','OTransform ','msTransform','transform'];
